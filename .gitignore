@@ -1,4 +1,58 @@
-.venv
-.cursor
-__pycache__
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment and secrets (never commit)
 .env
+.env.*
+!.env.example
+
+# Cursor / IDE (local MCP config often contains API keys)
+.cursor/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+build/
+dist/
+*.egg
+*.egg-info/
+.eggs/
+sdist/
+wheels/
+share/python-wheels/
+pip-wheel-metadata/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Type checkers / linters (local caches)
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.pytype/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editors / backups
+*.swp
+*.swo
+*~
