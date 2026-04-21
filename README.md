@@ -78,7 +78,7 @@ Create `.cursor/mcp.json` at your project root (or `~/.cursor/mcp.json` for glob
       "command": "uv",
       "args": ["--directory", "/home/YOUR_USER/spira-mcp", "run", "python", "-m", "spira_mcp"],
       "env": {
-        "SPIRA_BASE_URL": "https://simitive.spiraservice.net",
+        "SPIRA_BASE_URL": "https://yourworkspace.spiraservice.net",
         "SPIRA_USERNAME": "your_login",
         "SPIRA_API_KEY": "{YOUR-API-KEY-HERE}",
         "SPIRA_PROJECT_ID": "31"
@@ -97,7 +97,7 @@ Create `.cursor/mcp.json` at your project root (or `~/.cursor/mcp.json` for glob
       "command": "/home/YOUR_USER/spira-mcp/.venv/bin/spira-mcp",
       "args": [],
       "env": {
-        "SPIRA_BASE_URL": "https://simitive.spiraservice.net",
+        "SPIRA_BASE_URL": "https://yourworkspace.spiraservice.net",
         "SPIRA_USERNAME": "your_login",
         "SPIRA_API_KEY": "{YOUR-API-KEY-HERE}",
         "SPIRA_PROJECT_ID": "31"
@@ -122,7 +122,7 @@ Add `"SPIRA_ALLOW_UPDATES": "true"` to the `env` block above.
 
 | Variable | Required | Default | Description |
 |---|---|---|---|
-| `SPIRA_BASE_URL` | ✅ | — | Base URL of your Spira instance, e.g. `https://simitive.spiraservice.net` |
+| `SPIRA_BASE_URL` | ✅ | — | Base URL of your Spira instance, e.g. `https://yourworkspace.spiraservice.net` |
 | `SPIRA_USERNAME` | ✅ | — | Your Spira login username |
 | `SPIRA_API_KEY` | ✅ | — | Your Spira RSS/API key including `{` `}` braces |
 | `SPIRA_PROJECT_ID` | Optional | — | Default project ID used when not specified in prompt |
@@ -256,7 +256,7 @@ The system shall allow users to authenticate using corporate SSO...
 We need to confirm the SAML metadata URL with the infrastructure team.
 
 ---
-_Source: [RQ-22942](https://simitive.spiraservice.net/31/Requirement/22942/Overview.aspx)_
+_Source: [RQ-22942](https://yourworkspace.spiraservice.net/31/Requirement/22942/Overview.aspx)_
 ```
 
 ---
